@@ -1,0 +1,22 @@
+[
+  {
+    "name": "My Tasks Go",
+    "description": "Projeto em Golang para gerenciamento de tasks.",
+    "url": "https://github.com/EricOliveiras/my-tasks-go"
+  },
+  {
+    "name": "OS System",
+    "description": "Projeto em Typescrip para gerenciamento de ordens de serviço.",
+    "url": "https://github.com/EricOliveiras/os-system"
+  },
+  {
+    "name": "Hyper-v - Ubuntu",
+    "description": "Projeto para provisionamente de maquina virtual no hyper-v do windows utilizando Vagrant.",
+    "url": "https://github.com/EricOliveiras/hyper-v-ubuntu"
+  },
+  {
+    "name": "Auto Message App",
+    "description": "Projeto para automação no envio de mensagens pelo WhatsApp.",
+    "url": "https://github.com/EricOliveiras/autoMessageApp"
+  }
+]

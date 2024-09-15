@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #1c1c1c, #3d3d3d); /* Gradiente escuro */
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.profile-container {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.social-links img {
+  width: 40px;
+  margin: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo levemente translúcido */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+#github-repos {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2); /* Cards translúcidos */
+  border: 1px solid #555;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card a:hover {
+  text-decoration: none;
+  color: inherit; /* Preserva a cor no hover */
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
